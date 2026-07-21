@@ -1,14 +1,13 @@
-# TECHHOOD — Landing Page
+# TECHHOOD 
 
-A responsive, animated marketing site for TECHHOOD, a software/cloud
-engineering agency. Built as a portfolio piece: semantic HTML5, custom-property
+A responsive site for TECHHOOD, Built as a assesment: semantic HTML5, custom-property
 driven CSS3, and vanilla ES6 written in an OOP style (no frameworks, no
 build step).
 
 ## Folder structure
 
 ```
-techhood-landing/
+techhood/
 ├── index.html          semantic skeleton, all sections
 ├── css/
 │   └── style.css        design tokens, layout, animation, breakpoints
@@ -16,24 +15,9 @@ techhood-landing/
 │   └── script.js         OOP classes: Navigation, ContentRenderer, ScrollReveal,
 │                          TestimonialSlider, FormValidator, Toast, App
 ├── images/
-│   ├── logo.png          brand mark (provided)
-│   ├── about.svg          generated low-poly facet artwork
-│   └── portfolio-1..6.svg generated low-poly facet thumbnails (400×300)
+│   ├── logo.png          brand mark 
 └── README.md
 ```
-
-## Run it
-
-No build step — it's plain HTML/CSS/JS.
-
-- **Quickest:** double-click `index.html` to open it in a browser.
-- **Recommended (so relative paths behave exactly like a deployed site):**
-  ```bash
-  cd techhood-landing
-  python3 -m http.server 8000
-  # then open http://localhost:8000
-  ```
-  or use the VS Code "Live Server" extension.
 
 ## Design decisions
 
